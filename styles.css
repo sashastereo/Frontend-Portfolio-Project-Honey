@@ -32,26 +32,34 @@ body {
 }
 .main-navigation {
   display: flex;
+  align-items: center;
 }
-
-.main-navigation {}
 
 .nav {
-  margin: 0 auto;
+  
+margin: 0 auto;
 }
+
+.nav-link {
+
+}
+
 .nav-wrapper {
   margin: 0;
   padding: 0;
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
 }
 .nav-ul-item {
+
   margin-left: 40px;
   font-family: sans-serif;
   font-size: 20px;
 }
 .nav-ul-item-link {
 transition: 0.3s;
+
 }
 
 /* unvisited link */
@@ -78,18 +86,72 @@ transition: 0.3s;
   text-decoration: none;
 }
 
+.flags-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.lang-ua {
+padding-left: 10px;
+padding-right: 10px;
+
+}
+
+.lang-ru {
+
+ 
+}
+
  /*  === / HEADER ===  */ 
 
 
  /*  === CONTACT-INFO ===  */ 
-.section-contact-info {}
+.section-contact-info {
+  display: flex;
+ justify-content: flex-end;
+ align-items: flex-end;
+ flex-direction: column;
+}
+
+.phone_number {
+height: 50px;
+width: 250px;
+font-size: 20px;
+font-family: 'Montserrat Alternates';
+font-weight: 600;
+}
+.work_time {
+  height: 50px;
+width: 250px;
+font-size: 16px;
+}
+
  /*  === / CONTACT-INFO ===  */ 
 
 
  /*  === HONEY-DESCRIPTION ===  */ 
-.section-honey-description {}
+.section-honey-description {
+  background: url('./honey-description.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+}
  /*  === / HONEY-DESCRIPTION ===  */ 
+.honey-description-content {
 
+  width: 500px;
+  font-family: 'Montserrat Alternates';
+font-weight: 600;
+font-size: 36px;
+margin-right: 100px;
+margin-left: 100px;
+margin-top: 200px;
+color:rgb(61, 28, 4);
+}
 
  /*  === PRODUCTS ===  */ 
 .section-products {}
