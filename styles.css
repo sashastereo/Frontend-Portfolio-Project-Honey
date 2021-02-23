@@ -186,13 +186,20 @@ color:rgb(121, 61, 6);
 
 .products-wrapper {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   font-size: 20px;
   flex-wrap: wrap;
   text-align: center;
 }
 
+.products-wrapper p {
+  font-family: 'Montserrat Alternates';
+  font-weight: 600;
+  font-size: 24px;
+  color:rgb(121, 61, 6);
+  margin-top: 15px;
+}
  /*  === / PRODUCTS ===  */ 
 
 
