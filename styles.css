@@ -16,14 +16,14 @@ p {
 }
 
 .section-inner {
-  max-width: 900px;
+  
   margin: 0 auto;
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
 .section-inner-header-footer {
-  max-width: 1200px;
+ 
   margin: 0 auto;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -230,9 +230,8 @@ margin-top: 20px;
 }
  /*  === / FOOTER ===  */ 
 
-
- @media screen and ( max-width: 420px ) {
-   .nav {
+ @media screen and (max-width: 420px) {
+  .nav  {
     display: none;
   }
 }
