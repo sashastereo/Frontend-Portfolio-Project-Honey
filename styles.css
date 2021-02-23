@@ -156,31 +156,38 @@ margin-top: 20px;
 
 
  /*  === HONEY-DESCRIPTION ===  */ 
+
 .section-honey-description {
+  display: flex;
+  flex-flow: column;
+}
+
+/*.description-image {
   background: url('./honey-description.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 600px;
-  display: flex;
-  justify-content:flex-end;
-  align-items: flex-end;
-}
- /*  === / HONEY-DESCRIPTION ===  */ 
-.honey-description-content {
-display: flex;
-align-items: center;
-justify-content: center;
-font-family: 'Montserrat Alternates';
-font-weight: 600;
-font-size: 32px;
-color:rgb(121, 61, 6);
-margin-bottom: 50px;
-}
-.honey-description-content p {
-  text-align: center;
+}*/
 
-}
+.honey-description-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat Alternates';
+  font-weight: 600;
+  font-size: 32px;
+  color:rgb(121, 61, 6);
+  margin-bottom: 50px;
+  margin-top: 20px;
+  }
+  .honey-description-content p {
+    text-align: center;
+  
+  }
+
+ /*  === / HONEY-DESCRIPTION ===  */ 
+
  /*  === PRODUCTS ===  */ 
 .section-products {
   margin-top: 100px;
