@@ -163,10 +163,11 @@ margin-top: 20px;
 
 .description-image {
   background: url('./honey-description.jpg');
-  background-position: cover;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
   height: 400px;
+  width: 100%;
 }
 
 .honey-description-content {
@@ -180,6 +181,7 @@ margin-top: 20px;
   margin-bottom: 50px;
   margin-top: 20px;
   }
+
   .honey-description-content p {
     text-align: center;
   
