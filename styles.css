@@ -44,7 +44,7 @@ label {
 }
 .main-navigation {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
 }
 
@@ -240,22 +240,15 @@ margin-top: 20px;
   }
 
   #toggle:checked + .nav {
-   display: flex;
-   flex-flow: column;
-   height: 250px;
-   margin-right: 50px;
-   margin-left: 0;
-
+   display: block;
+   width: 200px;
   }
 
-  #toggle:checked + .nav a{
-    margin-bottom: 20px;
-    margin-top: 20px;
+  #toggle:checked + .main-navigation {
+    display: flex;
+    align-items: flex-start;
    }
 
-   #toggle:checked + label {
-    margin-left: 20px;
-    margin-right: 20px;
-   }
+ 
 
 }
