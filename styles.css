@@ -163,7 +163,7 @@ margin-top: 20px;
 
 .description-image {
   background: url('./honey-description.jpg');
-  background-position: center;
+  background-position: cover;
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
