@@ -12,12 +12,12 @@ p {
 }
 
 .section-outer {
-  max-width: 1400px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
 .section-inner {
-  max-width: 1200px;
+  max-width: 900px;
   margin: 0 auto;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -50,13 +50,13 @@ label {
 }
 
 .lang-ua {
-  padding-left: 10px;
-  padding-right: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
 
 }
 
 .lang-ru {
-  padding-right: 40px;
+  padding-right: 10px;
 
 }
 
@@ -102,7 +102,7 @@ a {
     display: block;
     cursor: pointer;
     margin-left: 50px;
-    margin-right: 50px;
+    margin-right: 20px;
   }
 
   #toggle:checked+.nav {
@@ -114,8 +114,9 @@ a {
 
   #toggle:checked+.nav a {
     display: block;
-    margin: 10px 0;
+    margin: 20px 0;
     padding: 0;
+    font-size: 16px;
   }
 
   #toggle:checked+.label {
@@ -126,9 +127,10 @@ a {
   .main-navigation {
 
     align-items: flex-start;
-    justify-content: space-around;
-
+    justify-content:center;
   }
+
+  
 
 }
 
@@ -195,6 +197,7 @@ a {
 .section-honey-description {
   display: flex;
   flex-flow: column;
+  margin: 0px 20px;
 }
 
 .description-image {
@@ -202,9 +205,8 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 400px;
-  width: 100%;
-  position: relative;
+height: 400px;
+width: 100%;
 }
 
 .image-holder {
@@ -221,7 +223,6 @@ a {
   font-weight: 600;
   font-size: 32px;
   color: rgb(121, 61, 6);
-  margin-bottom: 50px;
   margin-top: 20px;
 }
 
@@ -230,11 +231,18 @@ a {
 
 }
 
+@media (max-width: 1080px) {
+  .honey-description-content p {
+    font-size: 20px;
+  }
+
+}
+
 /*  === / HONEY-DESCRIPTION ===  */
 
 /*  === PRODUCTS ===  */
 .section-products {
-  margin-top: 100px;
+  margin-top: 20px;
 }
 
 .products-wrapper {
