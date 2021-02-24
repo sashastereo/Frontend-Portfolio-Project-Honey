@@ -196,8 +196,6 @@ a {
 
 .section-honey-description {
   display: flex;
-  flex-flow: column;
-  margin: 0px 20px;
 }
 
 .description-image {
@@ -207,6 +205,8 @@ a {
   background-position: center center;
 height: 400px;
 width: 100%;
+position: relative;
+margin: 0 20px;
 }
 
 .image-holder {
