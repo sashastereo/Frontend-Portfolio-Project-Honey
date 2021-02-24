@@ -57,7 +57,7 @@ margin: 0 auto;
   
   margin-left: 10px;
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 26px;
   color:rgb(121, 61, 6);
 }
 
@@ -161,13 +161,13 @@ margin-top: 20px;
   flex-flow: column;
 }
 
-/*.description-image {
+.description-image {
   background: url('./honey-description.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
-}*/
+  height: 400px;
+}
 
 .honey-description-content {
   display: flex;
@@ -242,6 +242,7 @@ margin-top: 20px;
   #toggle:checked + .nav {
    display: block;
    width: 200px;
+   height: 200px;
   }
 
   #toggle:checked + .main-navigation {
