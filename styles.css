@@ -206,7 +206,6 @@ a:hover {
 @media (max-width: 1080px) {
   .contact-info-main {
     flex-flow: column;
-    
   }
 
 .phone_number,
@@ -214,6 +213,15 @@ a:hover {
 .info {
   font-size: 20px;
 }
+.contacts-wrapper {
+  margin:0;
+  padding:0;
+}
+
+.info {
+  text-align: center;
+}
+
  
 }
 
@@ -279,7 +287,6 @@ position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 20px;
   flex-wrap: wrap;
   text-align: center;
 }
@@ -292,24 +299,117 @@ position: relative;
   margin-top: 15px;
 }
 
+@media (max-width: 1080px) {
+  .products-wrapper p  {
+    font-size: 18px;
+  }
+
+}
 /*  === / PRODUCTS ===  */
 
 
 /*  === ADVANTAGES ===  */
-.section-advantages {}
+.advantage-description p {
+  text-align: center;
+  font-family: 'Montserrat Alternates';
+  font-weight: 600;
+  font-size: 32px;
+  color: rgb(121, 61, 6);
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.advantage-description ul {
+text-align: left;
+margin-left: 50px;
+
+} 
+
+.advantage-description li {
+  list-style:space-counter;
+  font-family: 'Montserrat Alternates';
+  font-weight: 600;
+  font-size: 32px;
+  color: rgb(121, 61, 6);
+  margin-top: 20px;
+  list-style-position: inside;
+
+}
+
+@media (max-width: 1080px) {
+  .advantage-description p  {
+    font-size: 22px;
+  }
+
+  .advantage-description li  {
+    font-size: 18px;
+  }
+
+  .advantage-description ul {
+    text-align: left;
+    margin-left: 0;
+    } 
+  }
+
 
 /*  === / ADVANTAGES ===  */
 
 
 /*  === FOOTER-CONTACTS ===  */
-.section-footer-contacts {}
+.footer-info {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-top: 50px;
+  justify-content: center;
+}
 
+.footer-info p {
+  font-family: 'Montserrat Alternates';
+  font-weight: 600;
+  font-size: 32px;
+  color: rgb(121, 61, 6);
+  margin-top: 20px;
+}
+
+#delivery-info {
+  font-size: 20px;
+  text-align: center;
+}
+
+@media (max-width: 1080px) {
+  .footer-info p {
+    font-size: 18px;
+  }
+
+  #delivery-info {
+    font-size: 14px;
+    text-align: center;
+  }
+  .footer-info {
+  
+    margin-top: 0px;
+  }
+}
 /*  === / FOOTER-CONTACTS ===  */
 
 
 /*  === FOOTER ===  */
-.section-footer {
-  border-bottom: 0;
+.footer-credentials {
+  text-align: center;
+  font-family: 'Brygada 1918';
+  font-weight: 400;
+  font-size: 14px;
+  color: rgb(121, 61, 6);
+  margin-top: 20px;
+  
+}
+
+.footer-credentials a {
+  font-family: 'Brygada 1918';
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: underline;
 }
 
 /*  === / FOOTER ===  */
