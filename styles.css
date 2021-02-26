@@ -5,7 +5,6 @@
 
 body {
   font-family: 'Montserrat Alternates', sans-serif;
-  margin: o auto;
 }
 
 p {
@@ -20,10 +19,7 @@ p {
 .section-inner {
   max-width: 1200px;
   margin: 0 auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 20px 10px;
 }
 
 /*  === / COMMON ===  */
@@ -33,10 +29,6 @@ p {
 .line {
   display: none;
 }
-
-
-  
-
 
 .main-navigation {
   display: flex;
@@ -53,16 +45,6 @@ p {
   margin: 10px 0;
 }
 
-.lang-ua {
-
-
-}
-
-.lang-ru {
-
-
-}
-
 a {
   margin-left: 30px;
   margin-bottom: 20px;
@@ -77,19 +59,16 @@ a {
 
 }
 
-/* unvisited link */
 a:link {
   color: rgb(121, 61, 6);
   text-decoration: none;
 }
 
-/* visited link */
 a:visited {
   color: rgb(121, 61, 6);
   text-decoration: none;
 }
 
-/* mouse over link */
 a:hover {
   color: dodgerblue;
   text-decoration: none;
@@ -162,8 +141,6 @@ a:hover {
     padding-top: 30px;
   }
   
-
-  
 }
 
 /*  === / HEADER ===  */
@@ -225,7 +202,6 @@ a:hover {
 .info {
   text-align: center;
 }
-
  
 }
 
